@@ -18,7 +18,7 @@ jobs:
       run: |
         git remote add base ${BASE_GIT_HTTPS}
         git fetch base
-        git merge-base --is-ancestor main base/${BASE_BRANCH} && exit 1 || exit 0
+        git merge-base --is-ancestor sway base/${BASE_BRANCH} && exit 1 || exit 0
     - 
       name: rebase
       if: ${{ failure() }}
