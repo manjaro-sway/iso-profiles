@@ -28,6 +28,6 @@ jobs:
     - 
       uses: peter-evans/repository-dispatch@v1
       with:
-        token: ${{ secrets.DISPATCH_TOKEN }}
+        token: ${{ secrets.DISPATCH }}
         repository: manjaro-sway/manjaro-sway
         event-type: iso_profile_update
