@@ -1,7 +1,8 @@
+name: rebase
 on: [push]
 
 env:
-  BASE_GIT_HTTPS: https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git
+  UPSTREAM_GIT: https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git
   BASE_BRANCH: master
 
 jobs:
@@ -13,17 +14,16 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: "${{ secrets.GITHUB_TOKEN }}"
+        fetch-depth: 0
     - 
-      name: check if behind base
+      name: fetch upstream
       run: |
-        git remote add base ${BASE_GIT_HTTPS}
-        git fetch base
-        git merge-base --is-ancestor sway base/${BASE_BRANCH} && exit 1 || exit 0
+        git remote add upstream ${UPSTREAM_GIT}
+        git fetch upstream
     - 
       name: rebase
-      if: ${{ failure() }}
       run: |
-        git rebase base/${BASE_BRANCH}
+        git pull --rebase upstream ${BASE_BRANCH}
         git push --force-with-lease
     - 
       uses: peter-evans/repository-dispatch@v1
