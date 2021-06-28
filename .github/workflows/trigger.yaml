@@ -1,5 +1,7 @@
 name: rebase
-on: [push]
+on: 
+  push:
+    branches: [sway]
 
 env:
   UPSTREAM_GIT: https://gitlab.manjaro.org/profiles-and-settings/iso-profiles.git
@@ -23,6 +25,8 @@ jobs:
     - 
       name: rebase
       run: |
+        git config --global user.name "Repo Update Bot"
+        git config --global user.email "info@manjaro-sway.download"
         git pull --rebase upstream ${BASE_BRANCH}
         git push --force-with-lease
     - 
