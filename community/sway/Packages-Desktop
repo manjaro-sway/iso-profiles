@@ -46,8 +46,6 @@ gvfs
 
 # Sound, video and bluetooth
 pulsemixer
-alsa-utils
-alsa-firmware
 bluez
 bluez-utils
 pulseaudio-alsa
