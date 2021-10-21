@@ -85,7 +85,6 @@ pamac-gtk
 >extra manjaro-settings-manager
 
 # extra fonts
->extra font-manager
 >extra wqy-microhei
 
 # CLI tools
