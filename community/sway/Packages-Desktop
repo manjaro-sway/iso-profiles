@@ -1,5 +1,5 @@
 # Base
-manjaro-sway/manjaro-sway-settings
+manjaro-sway-settings
 
 # Sway Extras
 >extra flashfocus # nicer flashing on focus change
@@ -97,3 +97,6 @@ tlp
 wget
 >extra wl-clipboard # wayland clipboard application
 >extra cliphist # clipboard history application
+
+## calamares extra
+python-toml
