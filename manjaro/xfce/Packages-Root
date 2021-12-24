@@ -34,7 +34,7 @@ gcc-libs
 gettext
 glibc
 grep
-grub
+>grub
 gzip
 haveged
 inetutils
