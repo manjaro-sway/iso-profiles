@@ -14,7 +14,7 @@ jobs:
       with:
         permission: "write"
     - name: create comment in target repo
-      uses: peter-evans/create-or-update-comment@v1
+      uses: peter-evans/create-or-update-comment@v2
       with:
         issue-number: 73
         repository: manjaro-sway/manjaro-sway
