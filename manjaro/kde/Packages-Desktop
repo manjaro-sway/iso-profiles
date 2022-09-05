@@ -137,6 +137,8 @@ oxygen-icons
 sddm-breath-theme
 grub-theme-manjaro
 breeze-gtk
+plymouth
+plymouth-theme-manjaro
 
 ## KDE Applications
 ark

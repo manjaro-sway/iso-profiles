@@ -153,6 +153,8 @@ grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
+plymouth
+plymouth-theme-manjaro
 
 ## Applications
 >extra catfish
