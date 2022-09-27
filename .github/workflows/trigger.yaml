@@ -1,4 +1,4 @@
-name: rebase
+name: trigger
 on: 
   push:
     branches: [sway]
