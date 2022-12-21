@@ -136,7 +136,7 @@ ttf-dejavu
 >extra ttf-liberation
 >extra udiskie
 vi
->extra xcursor-chameleon-pearl-deepin
+bibata-cursor-theme
 xdg-user-dirs-gtk
 xdg-utils
 xed
