@@ -169,6 +169,7 @@ gnome-tweaks
 
 ## Themes
 adw-gtk-theme
+bibata-cursor-theme
 >extra gdm-plymouth
 gnome-shell-maia
 gnome-themes-extra
@@ -188,7 +189,6 @@ qt5ct
 qt6ct
 #>extra wallpapers-2018
 #>extra wallpapers-juhraya
-xcursor-breeze
 
 ## Applications
 >extra alacarte
