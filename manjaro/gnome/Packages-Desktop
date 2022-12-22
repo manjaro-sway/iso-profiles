@@ -58,7 +58,7 @@ pamac-gtk
 #epiphany                          # Firefox included as default browser
 evince
 file-roller
->basic gdm                         # gdm-plymouth in full edition
+#basic gdm                         # gdm-plymouth used instead
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -170,7 +170,7 @@ gnome-tweaks
 ## Themes
 adw-gtk-theme
 bibata-cursor-theme
->extra gdm-plymouth
+gdm-plymouth
 gnome-shell-maia
 gnome-themes-extra
 #gnome-wallpapers
@@ -182,7 +182,7 @@ manjaro-gdm-branding
 manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
->extra plymouth-theme-manjaro
+plymouth-theme-manjaro
 #qgnomeplatform-qt5
 #qgnomeplatform-qt6
 qt5ct
