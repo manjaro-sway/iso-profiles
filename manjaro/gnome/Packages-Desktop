@@ -213,12 +213,12 @@ ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
 lollypop
-#manjaro-application-utility       # required by manjaro-hello
+#manjaro-application-utility       # required by manjaro-hello, no need to be explicitly installed
 #manjaro-gnome-vanilla             # unmaintained, needs updating
-manjaro-hello                      # restored temporarily for upcoming Sikaris 22.0.0 ISO
+manjaro-hello                      # using manjaro-starter instead
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
-#manjaro-starter                   # coming soon
+manjaro-starter
 #mousetweaks
 nautilus-admin
 nautilus-empty-file

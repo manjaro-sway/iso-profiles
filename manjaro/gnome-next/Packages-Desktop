@@ -58,7 +58,7 @@ pamac-gtk
 #epiphany                          # Firefox included as default browser
 evince
 file-roller
->basic gdm                         # gdm-plymouth in full edition
+#basic gdm                         # gdm-plymouth used instead
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -79,7 +79,7 @@ gnome-logs
 #>extra gnome-remote-desktop       # optional for gnome-control-center
 gnome-session
 gnome-settings-daemon
-gnome-shell
+#gnome-shell                       # custom gnome-shell-maia used
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
@@ -97,7 +97,7 @@ gvfs
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
-#malcontent                        # optional for gnome-control-center
+>extra malcontent
 mutter
 nautilus
 #orca
@@ -157,9 +157,10 @@ gnome-tweaks
 ## GNOME Shell Extensions
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-custom-accent-colors
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
->extra gnome-shell-extension-desktop-icons-ng
+>extra gnome-shell-extension-gtk4-desktop-icons-ng
 >extra gnome-shell-extension-gnome-ui-tune
 >extra gnome-shell-extension-gsconnect
 >extra gnome-shell-extension-legacy-theme-auto-switcher
@@ -168,21 +169,26 @@ gnome-tweaks
 
 ## Themes
 adw-gtk-theme
->extra gdm-plymouth
+bibata-cursor-theme
+gdm-plymouth
+gnome-shell-maia
 gnome-themes-extra
-gnome-wallpapers
+#gnome-wallpapers
 grub-theme-manjaro
->extra illyria-wallpaper
+kvantum-manjaro
+#>extra illyria-wallpaper
 manjaro-gdm-branding
 #manjaro-gdm-theme                 # Needs updating for GNOME 42
->extra manjaro-wallpapers-18.0
+manjaro-gnome-backgrounds
+#>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
->extra plymouth-theme-manjaro
-qgnomeplatform-qt5
-qgnomeplatform-qt6
->extra wallpapers-2018
->extra wallpapers-juhraya
-xcursor-breeze
+plymouth-theme-manjaro
+#qgnomeplatform-qt5
+#qgnomeplatform-qt6
+qt5ct
+qt6ct
+#>extra wallpapers-2018
+#>extra wallpapers-juhraya
 
 ## Applications
 >extra alacarte
@@ -198,7 +204,6 @@ gnome-firmware
 >extra gnome-layout-switcher
 gnome-tour
 >extra gnuchess                    # optional for gnome-chess to play against computer
-gparted
 gthumb
 #>extra gtkhash-nautilus           # not compatible with Nautilus 43
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
@@ -208,11 +213,12 @@ ibus
 inxi
 #>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
 lollypop
-#manjaro-application-utility       # required by manjaro-hello
-#manjaro-gnome-vanilla
-manjaro-hello
+#manjaro-application-utility       # required by manjaro-hello, no need to be explicitly installed
+#manjaro-gnome-vanilla             # unmaintained, needs updating
+manjaro-hello                      # using manjaro-starter instead
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
+manjaro-starter
 #mousetweaks
 nautilus-admin
 nautilus-empty-file
