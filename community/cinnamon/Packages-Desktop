@@ -80,6 +80,7 @@ manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-demos
 >basic midori
+mintstick
 >extra mobile-broadband-provider-info
 >extra modemmanager
 >extra mousetweaks
@@ -113,7 +114,6 @@ pavucontrol
 >extra pix
 pkg-config
 >extra poppler-data
->extra popsicle
 >extra powertop
 #>extra pragha
 >extra pulseaudio-bluetooth
