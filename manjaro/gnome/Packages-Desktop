@@ -215,7 +215,7 @@ inxi
 lollypop
 #manjaro-application-utility       # required by manjaro-hello, no need to be explicitly installed
 #manjaro-gnome-vanilla             # unmaintained, needs updating
-manjaro-hello                      # using manjaro-starter instead
+#manjaro-hello                     # using manjaro-starter instead
 >extra manjaro-log-helper
 manjaro-settings-manager-notifier
 manjaro-starter
