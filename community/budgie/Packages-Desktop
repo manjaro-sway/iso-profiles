@@ -107,7 +107,7 @@ ntp
 openssh
 terminus-font
 totem
-tracker
+#tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -137,7 +137,7 @@ yelp
 >extra uget
 >extra transmission-gtk
 >extra brasero
->extra manjaro-documentation-en
+#>extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 timeshift
