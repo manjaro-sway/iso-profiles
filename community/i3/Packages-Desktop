@@ -68,7 +68,7 @@ make
 >multilib manjaro-alsa
 >extra manjaro-application-utility
 manjaro-browser-settings
->extra manjaro-hello
+>extra manjaro-starter
 manjaro-hotfixes
 manjaro-i3-settings
 >extra manjaro-printer
