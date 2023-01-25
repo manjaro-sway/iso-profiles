@@ -62,9 +62,6 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->x86_64 >extra steam-manjaro
-
 ## Package management
 #>extra appimagelauncher
 pamac-gtk
@@ -141,7 +138,8 @@ oxygen-icons
 sddm-breath-theme
 grub-theme-manjaro
 breeze-gtk
-illyria-wallpaper
+plymouth
+plymouth-theme-manjaro
 
 ## KDE Applications
 ark
@@ -185,7 +183,6 @@ unarchiver  # RAR format support
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
@@ -218,7 +215,7 @@ inxi
 #ms-office-online
 >extra onlyoffice-desktopeditors
 #>extra freeoffice
->extra libreoffice-still
+#>extra libreoffice-still
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
@@ -243,7 +240,6 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
