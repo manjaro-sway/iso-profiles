@@ -243,3 +243,10 @@ manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
 tlp
+
+## OEM
+calamares
+calamares-oem-modules
+calamares-oem-starlabs-xfce-settings
+#starlabs-tweaks
+coreboot-configurator
