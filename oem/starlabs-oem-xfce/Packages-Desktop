@@ -49,6 +49,7 @@ udisks2
 
 ## Fonts
 ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
@@ -61,9 +62,6 @@ terminus-font
 >extra ttf-indic-otf
 >extra ttf-liberation
 >extra ttf-droid
-
-## Games
->x86_64 >extra steam-manjaro
 
 ## Package management
 >extra apparmor
@@ -152,8 +150,11 @@ grub-theme-manjaro
 matcha-gtk-theme
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
+plymouth
+plymouth-theme-manjaro
 
 ## Applications
+bash-completion
 >extra catfish
 dmidecode # optional dependency inxi
 engrampa
@@ -167,11 +168,11 @@ gufw
 >extra audacious
 >extra hexchat
 htop
-evince
 inxi
->extra libreoffice-still
+#>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
+>extra onlyoffice-desktopeditors
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager
@@ -184,6 +185,7 @@ mugshot
 >extra pidgin
 powertop
 screenfetch
+evince
 >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
 >extra thunderbird
@@ -198,7 +200,7 @@ unace  # ACE archive support
 unrar  # RAR archive support
 
 ## Documentation
-manjaro-documentation-en
+#manjaro-documentation-en
 
 ## Settings packages
 >extra manjaro-xfce-gtk3-settings
@@ -209,7 +211,6 @@ manjaro-browser-settings
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
@@ -232,18 +233,13 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-zensu
+#xdg-su
 >extra timeshift
+#>extra kernel-alive
 
 ## Misc
 gtkhash-thunar
 manjaro-hotfixes
 >basic squashfs-tools
 xiccd # enable color profile settings
-
-## OEM
-calamares
-calamares-oem-modules
-calamares-oem-starlabs-xfce-settings
-#starlabs-tweaks
-coreboot-configurator
+tlp
