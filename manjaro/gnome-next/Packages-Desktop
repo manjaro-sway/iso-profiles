@@ -196,6 +196,7 @@ qt6ct
 >extra caffeine-ng
 >extra deja-dup
 >extra ffmpegthumbnailer
+>extra ffmpeg-audio-thumbnailer
 firefox
 fprintd                            # needed for fingerprint reader
 >extra fragments
