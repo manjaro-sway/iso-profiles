@@ -58,7 +58,7 @@ pamac-gtk
 #epiphany                          # Firefox included as default browser
 evince
 file-roller
-basic gdm
+>basic gdm
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
