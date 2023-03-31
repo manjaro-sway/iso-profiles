@@ -130,6 +130,7 @@ powerdevil
 systemsettings
 plasma-browser-integration
 xdg-desktop-portal-kde
+plasma-welcome
 
 ## Themes QT/GTK/SDDM
 gnome-themes-standard
