@@ -267,6 +267,7 @@ perl-file-mimeinfo
 xdg-utils
 >extra timeshift
 #>extra kernel-alive
+power-profiles-daemon
 
 ## Misc
 manjaro-hotfixes
