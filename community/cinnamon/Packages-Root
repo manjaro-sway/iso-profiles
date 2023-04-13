@@ -73,7 +73,6 @@ shadow
 spectre-meltdown-checker
 sudo
 sysfsutils
-systemd-fsck-silent
 systemd-sysvcompat
 tar
 texinfo
