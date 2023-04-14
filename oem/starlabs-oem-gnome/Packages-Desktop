@@ -58,7 +58,7 @@ pamac-gtk
 #epiphany                          # Firefox included as default browser
 evince
 file-roller
-#basic gdm                         # gdm-plymouth used instead
+gdm
 gnome-backgrounds
 gnome-calculator
 gnome-calendar
@@ -170,7 +170,6 @@ gnome-tweaks
 ## Themes
 adw-gtk-theme
 bibata-cursor-theme
-gdm-plymouth
 gnome-shell-maia
 gnome-themes-extra
 #gnome-wallpapers
