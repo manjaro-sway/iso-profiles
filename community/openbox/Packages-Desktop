@@ -89,7 +89,7 @@ adwaita-icon-theme
 hicolor-icon-theme
 
 ### SYSTEM CURSOR THEME
-xcursor-pinux
+xcursor-breeze
 
 ### SYSTEM FONTS
 freetype2
