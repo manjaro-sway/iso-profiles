@@ -102,9 +102,6 @@ gnome-icon-theme-extras
 gnome-themes-extra
 hicolor-icon-theme
 
-## cursor
-xcursor-pinux
-
 ## system fonts
 freetype2
 ttf-dejavu
