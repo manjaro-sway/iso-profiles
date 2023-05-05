@@ -92,7 +92,7 @@ xdg-desktop-portal
 xdg-desktop-portal-kde
 fwupd
 pamac-cli
-octopi
+#octopi
 
 ## Printing
 #>extra cups
