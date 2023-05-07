@@ -25,11 +25,17 @@ konsole
 #>extra wpa_supplicant_gui
 
 ## package manager
-
+>extra octopi
+>extra octopi-notifier-frameworks
+# optional dependencies of octopi:
+>extra octopi-cachecleaner
+>extra octopi-repoeditor
+>extra pacmanlogviewer
 
 ## AUR support
 >extra base-devel
 >extra git
+>extra yaourt
 
 ## manjaro settings manager
 >extra manjaro-settings-manager
