@@ -68,6 +68,7 @@ pkg-config
 >extra git
 >extra patchutils
 >extra subversion
+#yaourt
 
 ## Fonts
 ttf-dejavu
@@ -88,6 +89,10 @@ terminus-font
 #discover
 flatpak
 #fwupd
+octopi
+octopi-cachecleaner
+octopi-repoeditor
+octopi-notifier-frameworks
 #pamac
 #pamac-tray-appindicator
 
