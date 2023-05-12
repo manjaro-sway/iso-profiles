@@ -30,20 +30,24 @@ grub-btrfs
 >extra manjaro-modem
 >extra manjaro-pulse
 
+
 ## Fonts
-ttf-dejavu
-ttf-droid
-ttf-hack
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
+
+#adobe-source-han-sans-cn-fonts
+#adobe-source-han-sans-jp-fonts
+#adobe-source-han-sans-hk-fonts
+#adobe-source-han-sans-kr-fonts
+#adobe-source-sans-fonts
 noto-fonts                         # default font
->extra noto-fonts-emoji
-#noto-fonts-cjk                    # asian fonts - large package, ~76 mb compressed
-adobe-source-sans-pro-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-adobe-source-han-sans-cn-fonts
+noto-fonts-cjk                     # Asian fonts, optional for noto-fonts
+noto-fonts-emoji                   # required by gnome-characters, optional for noto-fonts
+noto-fonts-extra                   # additional languages, optional for noto-fonts
+#ttf-dejavu                        # required by firefox
+#ttf-droid                         # required by firefox
+ttf-hack                           # default monspace font
+#ttf-inconsolata
+ttf-indic-otf                      # India fonts
+#ttf-liberation                    # required by firefox
 
 
 ## Package management
