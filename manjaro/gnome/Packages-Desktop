@@ -1,5 +1,6 @@
 ## Network
-networkmanager
+
+networkmanager                     # optional for gnome-control-center
 >extra networkmanager-openconnect
 >extra networkmanager-openvpn
 >extra networkmanager-pptp
@@ -56,13 +57,14 @@ pamac-gtk
 ## Printing
 
 >extra manjaro-printer
+>extra system-config-printer       # optional for gnome-control-center
 
 
 ## GNOME group
 
 >extra baobab
 >extra cheese
-#eog                               # gthumb included instead
+>basic eog                         # gthumb in full edition
 #epiphany                          # Firefox included as default browser
 evince
 gdm
@@ -70,7 +72,7 @@ gnome-backgrounds
 gnome-calculator
 gnome-calendar
 >extra gnome-characters
->extra gnome-clocks
+gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 #gnome-console                     # gnome-terminal included instead
 >extra gnome-contacts
@@ -79,11 +81,11 @@ gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
 gnome-logs
-#>extra gnome-maps
+>extra gnome-maps
 #gnome-menus                       # required by alacarte; optional for gnome-shell-extensions
 #gnome-music                       # lollypop included instead
 #gnome-photos
-#>extra gnome-remote-desktop       # optional for gnome-control-center
+>extra gnome-remote-desktop        # optional for gnome-control-center
 gnome-session
 gnome-settings-daemon
 #gnome-shell                       # custom gnome-shell-maia used
@@ -94,16 +96,16 @@ gnome-system-monitor
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 gnome-weather
-grilo-plugins
+>extra grilo-plugins               # optional for totem
 gvfs
 >extra gvfs-afc
-#>extra gvfs-goa                   # required by gvfs-google; optional for gnome-control-center
+#>extra gvfs-goa                   # required by gvfs-google
 >extra gvfs-google                 # optional for gnome-online-accounts
 >extra gvfs-gphoto2
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
->extra malcontent
+>extra malcontent                  # optional for gnome-control-center
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
@@ -116,9 +118,11 @@ xdg-user-dirs-gtk
 
 
 ## GNOME Extra applications
+
 #accerciser
->extra dconf-editor
-#devhelp
+#d-spy                             # developer tools
+#>extra dconf-editor               # developer tools
+#devhelp                           # developer tools
 >extra endeavour
 #evolution                         # geary included instead
 file-roller
@@ -127,9 +131,9 @@ gedit
 #ghex
 #gitg
 #glade
->extra gnome-boxes
+#>extra gnome-boxes                # developer tools
 #gnome-builder                     # developer tools
-#gnome-connections
+>extra gnome-connections
 #gnome-devel-docs
 #gnome-dictionary
 #gnome-games
@@ -189,7 +193,7 @@ gnome-tweaks
 adw-gtk-theme
 bibata-cursor-theme
 gnome-shell-maia
-gnome-themes-extra
+gnome-themes-extra                 # optional for gtk2
 #gnome-wallpapers
 grub-theme-manjaro
 kvantum-manjaro
@@ -218,14 +222,15 @@ qt6ct
 >extra ffmpegthumbnailer
 >extra ffmpeg-audio-thumbnailer
 firefox
-fprintd                            # needed for fingerprint reader
+fprintd                            # needed for fingerprint reader, optional for gdm
+#fwupd                             # required by gnome-firmware, optional for gnome-control-center
 >extra fragments
 gnome-browser-connector
 gnome-firmware
 >extra gnome-layout-switcher
 gnome-tour
 >extra gnuchess                    # optional for gnome-chess to play against computer
-gthumb
+>extra gthumb                      # eog in minimal edition
 #>extra gtkhash-nautilus           # not compatible with Nautilus 43, collision included instead
 >extra gtksourceview-pkgbuild      # syntax highlighting for PKGBUILDs
 >extra gufw
@@ -241,12 +246,11 @@ manjaro-hello
 manjaro-settings-manager-notifier
 #manjaro-starter                    # Currently in testing for 23.0 in gnome-next
 #mousetweaks
-nautilus-admin
+>extra nautilus-admin
 nautilus-empty-file
-#>extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors  # office program is chosen during install
 polkit-gnome
 >extra power-profiles-daemon       # optional for gnome-control-center
->extra seahorse
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
 >extra touche
@@ -286,5 +290,5 @@ xorg-xinit
 
 ## Matti's corner
 >extra bmenu
-manjaro-ranger-settings
+>extra manjaro-ranger-settings
 >extra pacui
