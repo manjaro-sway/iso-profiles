@@ -13,12 +13,16 @@ openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
 #usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
 
+
 ## Btrfs
+
 btrfsmaintenance
 grub-btrfs
 >extra timeshift-autosnap-manjaro
 
+
 ## Libraries for Sound/Audio/Video
+
 >extra libdvdcss
 >extra manjaro-alsa
 >extra manjaro-gstreamer
@@ -40,24 +44,27 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
-## Games
 
 ## Package management
+
 pamac-gnome-integration
 >extra pamac-flatpak-plugin
 pamac-gtk
 #>extra pamac-snap-plugin
 
+
 ## Printing
+
 >extra manjaro-printer
 
+
 ## GNOME group
+
 >extra baobab
 >extra cheese
 #eog                               # gthumb included instead
 #epiphany                          # Firefox included as default browser
 evince
-file-roller
 gdm
 gnome-backgrounds
 gnome-calculator
@@ -86,7 +93,6 @@ gnome-system-monitor
 #gnome-text-editor                  # gedit included instead
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
-#gnome-video-effects               # required by cheese
 gnome-weather
 grilo-plugins
 gvfs
@@ -98,14 +104,13 @@ gvfs
 >extra gvfs-nfs
 >extra gvfs-smb
 >extra malcontent
-mutter
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
->extra simple-scan
 sushi
 totem
 tracker3-miners
+xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 #yelp                              # required by gnome-user-docs
 
@@ -116,32 +121,41 @@ xdg-user-dirs-gtk
 #devhelp
 >extra endeavour
 #evolution                         # geary included instead
+file-roller
 >extra geary
 gedit
 #ghex
+#gitg
 #glade
 >extra gnome-boxes
-#gnome-builder
+#gnome-builder                     # developer tools
 #gnome-connections
 #gnome-devel-docs
+#gnome-dictionary
 #gnome-games
 #gnome-multi-writer
 #gnome-nettool
+#gnome-notes
 #gnome-recipes
 #gnome-sound-recorder
 gnome-terminal
 gnome-tweaks
 #gnome-usage
 #polari
+>extra seahorse
+>extra simple-scan
+#sysprof                           # developer tools
 
 
 ## GNOME Extra games
+
 #five-or-more
 #four-in-a-row
 >extra gnome-chess
 #gnome-klotski
 #gnome-mahjongg
 >extra gnome-mines
+#gnome-2048
 #gnome-nibbles
 #gnome-robots
 #gnome-sudoku
@@ -154,7 +168,9 @@ gnome-tweaks
 #swell-foop
 #tali
 
+
 ## GNOME Shell Extensions
+
 >extra gnome-shell-extension-appindicator
 >extra gnome-shell-extension-arcmenu
 >extra gnome-shell-extension-custom-accent-colors
@@ -167,7 +183,9 @@ gnome-tweaks
 >extra gnome-shell-extension-material-shell
 >extra gnome-shell-extension-x11gestures
 
+
 ## Themes
+
 adw-gtk-theme
 bibata-cursor-theme
 gnome-shell-maia
@@ -189,7 +207,9 @@ qt6ct
 #>extra wallpapers-2018
 #>extra wallpapers-juhraya
 
+
 ## Applications
+
 >extra alacarte
 >extra apparmor
 >extra caffeine-ng
@@ -227,7 +247,7 @@ polkit-gnome
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra seahorse
 >extra timeshift
-#tlp
+#tlp                               # conflicts with power-profiles-daemon
 >extra touche
 >extra webapp-manager
 xdg-utils
