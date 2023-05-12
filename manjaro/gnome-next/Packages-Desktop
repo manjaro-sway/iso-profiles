@@ -243,7 +243,7 @@ manjaro-starter
 #mousetweaks
 nautilus-admin
 nautilus-empty-file
->extra onlyoffice-desktopeditors
+#>extra onlyoffice-desktopeditors
 polkit-gnome
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra seahorse
