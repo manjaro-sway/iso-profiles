@@ -9,7 +9,7 @@ networkmanager                     # optional for gnome-control-center
 >extra networkmanager-vpnc
 >extra modemmanager                # optional for networkmanager
 >extra nss-mdns                    # optional for avahi; avahi required by gvfs
-ntp
+#ntp
 openresolv                         # optional for networkmanager
 >extra openssh                     # optional for gnome-control-center
 #usb_modeswitch                    # required by manjaro-modem; optional for modemmanager
@@ -250,7 +250,7 @@ manjaro-starter
 >extra nautilus-admin
 nautilus-empty-file
 #>extra onlyoffice-desktopeditors  # office program is chosen during install
-polkit-gnome
+#polkit-gnome                      # deprecated
 >extra power-profiles-daemon       # optional for gnome-control-center
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
@@ -273,7 +273,7 @@ mesa-utils
 #manjaro-documentation-en
 
 ## Settings packages
->extra lighter-gnome
+#>extra lighter-gnome
 manjaro-base-skel
 manjaro-browser-settings
 >extra manjaro-gnome-extension-settings
@@ -283,10 +283,10 @@ manjaro-gnome-settings
 >extra manjaro-input
 
 ## Xorg Server
-numlockx
-xorg-mkfontscale
+#numlockx                          # not used and not needed
+#xorg-mkfontscale                  # not needed by anything
 xorg-server
-xorg-twm
+#xorg-twm                          # antiquated; optional for xorg-xinit
 xorg-xinit
 
 ## Matti's corner
