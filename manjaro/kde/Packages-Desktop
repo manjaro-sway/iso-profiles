@@ -227,7 +227,7 @@ powertop
 #>extra qbittorrent
 neofetch
 systemd-kcm
-#plymouth-kcm (not yet in stable branch)
+plymouth-kcm
 #>extra thunderbird
 >extra vlc
 yakuake
