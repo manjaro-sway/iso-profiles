@@ -24,7 +24,6 @@ dconf-editor
 hexchat
 evince
 gnome-calculator
-gnome-control-center
 gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
@@ -76,7 +75,6 @@ mobile-broadband-provider-info
 modemmanager
 mousetweaks
 >multilib lib32-mesa-demos
-mutter
 nautilus
 nautilus-admin
 nautilus-empty-file
