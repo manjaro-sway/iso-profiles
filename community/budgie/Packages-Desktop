@@ -27,12 +27,9 @@ gnome-calculator
 gnome-calendar
 gnome-disk-utility
 gnome-font-viewer
-gnome-themes-standard
 gnome-keyring
-gnome-settings-daemon
 gnome-system-monitor
 gnome-terminal
-budgie-screensaver
 gnome-screenshot
 >extra gnome-backgrounds
 grilo-plugins
@@ -70,11 +67,11 @@ manjaro-settings-manager-notifier
 manjaro-hello
 manjaro-application-utility
 >extra snapd
-mesa-demos
+mesa-utils
 mobile-broadband-provider-info
 modemmanager
 mousetweaks
->multilib lib32-mesa-demos
+>multilib lib32-mesa-utils
 nautilus
 nautilus-admin
 nautilus-empty-file
@@ -88,7 +85,7 @@ nss-mdns
 numlockx
 openresolv
 pamac-gtk
-pamac-snap-plugin
+>extra pamac-flatpak-plugin
 polkit-gnome
 powertop
 pulseaudio-bluetooth
@@ -105,7 +102,6 @@ ntp
 openssh
 terminus-font
 totem
-#tracker
 ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
@@ -144,17 +140,6 @@ timeshift
 >extra manjaro-printer
 >extra blueman
 >extra ffmpegthumbnailer
-#AUR complete support ( base devel )
-#>extra autoconf
-#>extra automake
-#>extra binutils
-#>extra bison
-#>extra fakeroot
-#>extra flex
-#>extra gcc
-#>extra libtool
-#>extra m4
-#>extra make
-#>extra patch
-#>extra subversion
+#AUR complete support
+#>extra base-devel
 manjaro-aur-support
