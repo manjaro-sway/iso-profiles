@@ -232,6 +232,7 @@ xorg-mkfontscale
 
 ## Desktop Utils
 perl-file-mimeinfo
+xdg-desktop-portal-gtk
 xdg-utils
 #xdg-su
 >extra timeshift
