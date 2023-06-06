@@ -40,7 +40,7 @@ grub-btrfs
 #adobe-source-sans-fonts
 noto-fonts                         # default font
 noto-fonts-cjk                     # Asian fonts, optional for noto-fonts
-noto-fonts-emoji                   # required by gnome-characters, optional for noto-fonts
+>extra noto-fonts-emoji            # required by gnome-characters, optional for noto-fonts
 noto-fonts-extra                   # additional languages, optional for noto-fonts
 #ttf-dejavu                        # required by firefox
 #ttf-droid                         # required by firefox
