@@ -91,8 +91,8 @@ gnome-logs
 #gnome-music                       # lollypop included instead
 #gnome-photos
 >extra gnome-remote-desktop        # optional for gnome-control-center
-gnome-session
-gnome-settings-daemon
+#gnome-session                     # required by gdm & gnome-shell
+#gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
 #gnome-shell                       # custom gnome-shell-maia used
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
