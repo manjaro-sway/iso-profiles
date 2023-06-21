@@ -1,0 +1,265 @@
+## Hardware Specific
+rog-ally-acpi-override
+handygccs-git
+
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libdvdcss
+manjaro-alsa
+manjaro-pulse
+phonon-qt5-gstreamer
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+ 
+## Btrfs
+grub-btrfs
+timeshift-autosnap-manjaro
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+kamera
+mtpfs
+udiskie
+udisks2
+
+## Fonts
+ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+#noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+adobe-source-sans-pro-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
+>extra noto-fonts-emoji
+terminus-font
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+>extra steam
+>extra gamescope-plus
+>extra gamescope-session-git
+
+## Package management
+>extra appimagelauncher
+pamac-gtk3
+pamac-tray-icon-plasma
+pamac-cli
+>extra apparmor
+>extra snapd
+>extra snapd-glib
+>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+#discover-snap
+#discover
+packagekit-qt5
+>extra fwupd 
+#octopi
+#octopi-cachecleaner
+#octopi-repoeditor
+#octopi-notifier-frameworks
+#pamac-qt
+manjaro-application-utility
+
+## Display manager
+sddm-git
+sddm-kcm
+
+## Plasma5
+bluedevil
+breeze-gtk
+discover
+drkonqi
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+khotkeys
+kinfocenter
+kscreen
+ksshaskpass
+kwallet-pam
+kwayland-integration
+kwrited
+plasma-browser-integration
+plasma-desktop
+plasma-disks
+plasma-firewall
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-thunderbolt
+plasma-vault
+plasma-workspace-wallpapers
+powerdevil
+xdg-desktop-portal-kde
+flatpak-kcm
+plymouth-kcm
+
+## Themes QT/GTK/SDDM
+gnome-themes-standard
+oxygen # needed to provide KDE system sounds
+oxygen-icons
+sddm-breath-theme
+grub-theme-manjaro
+breeze-gtk
+
+## KDE Applications
+ark
+#>extra digikam
+dolphin
+dolphin-plugins
+>extra filelight
+#>extra k3b
+kate
+kcalc
+>extra keditbookmarks
+kfind
+kdeconnect
+okular
+kdenetwork-filesharing
+khelpcenter
+khotkeys
+kinit # for "Open in Terminal" action
+kio-extras
+#>extra kleopatra
+konsole
+ksystemlog
+kwalletmanager
+gwenview
+spectacle
+
+## Optional dependencies for ark
+p7zip  # 7Z format support
+unarchiver  # RAR format support
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+ruby                      # installing new service menus with GHNS
+
+## Optional dependencies for gwenview
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+
+## Applications
+>extra elisa
+dmidecode # for inxi -m output
+discord
+element-desktop
+firefox
+htop
+inxi
+manjaro-hello
+manjaro-application-utility
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+plasma-systemmonitor
+powertop
+>extra qbittorrent
+screenfetch
+systemd-kcm
+skype-web-jak
+telegram-desktop
+#>extra thunderbird
+>extra vlc
+
+## Settings packages
+manjaro-browser-settings
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-synaptics
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+xorg-mkfontscale
+
+## Vulkan
+amdvlk
+spirv-tools
+vulkan-headers
+vulkan-radeon
+vulkan-tools
+vkd3d
+>multilib lib32-vulkan-radeon
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+zensu
+>extra timeshift
+gnome-firmware
+
+## Misc
+manjaro-hotfixes
+>basic squashfs-tools
+
+## Flatpak support
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
+
+## OEM
+calamares
+calamares-oem-modules
+calamares-oem-kde-settings
