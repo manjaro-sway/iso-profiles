@@ -2,6 +2,9 @@
 rog-ally-acpi-override
 handygccs-git
 
+## Branding
+manjaro-kde-settings
+
 ## Network
 avahi
 networkmanager
