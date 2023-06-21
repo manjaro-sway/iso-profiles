@@ -261,6 +261,7 @@ manjaro-hotfixes
 >extra xdg-desktop-portal-kde
 
 ## OEM
-calamares
-calamares-oem-modules
-calamares-oem-kde-settings
+#calamares
+#calamares-oem-modules
+#calamares-oem-kde-settings
+pico-wizard-plamo-scripts
