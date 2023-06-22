@@ -4,6 +4,7 @@ handygccs-git
 
 ## Branding
 manjaro-kde-settings
+plymouth-theme-manjaro
 
 ## Network
 avahi
@@ -264,8 +265,8 @@ manjaro-hotfixes
 >extra xdg-desktop-portal-kde
 
 ## OEM
-#calamares
-#calamares-oem-modules
-#calamares-oem-kde-settings
-pico-wizard-plamo-scripts
-maliit-keyboard
+calamares
+calamares-oem-modules
+calamares-oem-kde-settings
+#pico-wizard-plamo-scripts
+#maliit-keyboard
