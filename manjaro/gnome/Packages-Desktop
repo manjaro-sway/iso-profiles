@@ -30,6 +30,7 @@ grub-btrfs
 >extra manjaro-modem
 >extra manjaro-pulse
 
+
 ## Fonts
 ttf-dejavu
 ttf-droid
@@ -76,6 +77,7 @@ gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
 #gnome-console                     # gnome-terminal included instead
 >extra gnome-contacts
+>extra gnome-connections
 gnome-control-center
 gnome-disk-utility
 >extra gnome-font-viewer
@@ -86,13 +88,14 @@ gnome-logs
 #gnome-music                       # lollypop included instead
 #gnome-photos
 >extra gnome-remote-desktop        # optional for gnome-control-center
-gnome-session
-gnome-settings-daemon
+#gnome-session                     # required by gdm & gnome-shell
+#gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
 #gnome-shell                       # custom gnome-shell-maia used
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
 #gnome-text-editor                 # gedit included instead
+gnome-tour
 gnome-user-docs
 >extra gnome-user-share            # optional for gnome-control-center
 gnome-weather
@@ -109,6 +112,7 @@ gvfs
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
+>extra simple-scan
 sushi
 totem
 tracker3-miners
@@ -133,7 +137,6 @@ gedit
 #glade
 #>extra gnome-boxes                # developer tools
 #gnome-builder                     # developer tools
->extra gnome-connections
 #gnome-devel-docs
 #gnome-dictionary
 #gnome-games
@@ -147,7 +150,6 @@ gnome-tweaks
 #gnome-usage
 #polari
 >extra seahorse
->extra simple-scan
 #sysprof                           # developer tools
 
 
@@ -229,7 +231,6 @@ fprintd                            # needed for fingerprint reader, optional for
 gnome-browser-connector
 gnome-firmware
 >extra gnome-layout-switcher
-gnome-tour
 >extra gnuchess                    # optional for gnome-chess to play against computer
 >extra gthumb                      # eog in minimal edition
 #>extra gtkhash-nautilus           # not compatible with Nautilus 43, collision included instead
