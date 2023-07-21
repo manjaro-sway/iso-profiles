@@ -84,7 +84,7 @@ gnome-disk-utility
 gnome-keyring
 gnome-logs
 >extra gnome-maps
-#gnome-menus                       # optional for gnome-shell-extension-arcmenu
+#gnome-menus                       # optional for gnome-shell-extension-arc-menu
 #gnome-music                       # lollypop included instead
 #gnome-photos
 >extra gnome-remote-desktop        # optional for gnome-control-center
@@ -178,7 +178,7 @@ gnome-tweaks
 ## GNOME Shell Extensions
 
 >extra gnome-shell-extension-appindicator
->extra gnome-shell-extension-arcmenu
+>extra gnome-shell-extension-arc-menu
 >extra gnome-shell-extension-custom-accent-colors
 >extra gnome-shell-extension-dash-to-dock
 >extra gnome-shell-extension-dash-to-panel
