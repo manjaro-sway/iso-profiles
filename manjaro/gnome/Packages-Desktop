@@ -84,7 +84,7 @@ gnome-disk-utility
 gnome-keyring
 gnome-logs
 >extra gnome-maps
-#gnome-menus                       # required by alacarte; optional for gnome-shell-extensions
+#gnome-menus                       # optional for gnome-shell-extension-arcmenu
 #gnome-music                       # lollypop included instead
 #gnome-photos
 >extra gnome-remote-desktop        # optional for gnome-control-center
@@ -217,7 +217,6 @@ qt6ct
 
 ## Applications
 
->extra alacarte
 >extra apparmor
 >extra caffeine-ng
 >extra collision
