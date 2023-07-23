@@ -250,7 +250,7 @@ mesa
 mesa-demos
 >multilib lib32-mesa-demos
 mesa-vdpau
-opencl-mesa
+#opencl-mesa
 libvdpau
 >multilib lib32-libvdpau
 >multilib lib32-mesa-vdpau
