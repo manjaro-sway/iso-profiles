@@ -1,6 +1,8 @@
 ## Hardware Specific
 rog-ally-acpi-override
 handygccs-git
+mesa-780m
+lib32-mesa-780m
 
 ## Branding
 manjaro-kde-settings
@@ -79,6 +81,7 @@ terminus-font
 
 ## Games
 >extra steam
+>extra steam-deckify
 >extra gamescope-plus
 >extra gamescope-session-git
 
@@ -104,7 +107,7 @@ packagekit-qt5
 manjaro-application-utility
 
 ## Display manager
-sddm-git
+sddm
 sddm-kcm
 
 ## Plasma5
@@ -201,17 +204,17 @@ element-desktop
 firefox
 htop
 inxi
-manjaro-hello
-manjaro-application-utility
-manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
+#manjaro-hello
+#manjaro-application-utility
+#manjaro-settings-manager-kcm
+#manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
 >extra qbittorrent
 screenfetch
 systemd-kcm
-skype-web-jak
-telegram-desktop
+#skype-web-jak
+#telegram-desktop
 #>extra thunderbird
 >extra vlc
 
@@ -245,9 +248,11 @@ amdvlk
 spirv-tools
 vulkan-headers
 vulkan-radeon
+#vulkan-intel
 vulkan-tools
 vkd3d
 >multilib lib32-vulkan-radeon
+#>multilib lib32-vulkan-intel
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -263,10 +268,3 @@ manjaro-hotfixes
 ## Flatpak support
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde
-
-## OEM
-calamares
-calamares-oem-modules
-calamares-oem-kde-settings
-#pico-wizard-plamo-scripts
-#maliit-keyboard
