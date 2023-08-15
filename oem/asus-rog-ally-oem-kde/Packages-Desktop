@@ -244,13 +244,13 @@ xorg-xkill
 xorg-mkfontscale
 
 ## Vulkan
-amdvlk
-spirv-tools
+#amdvlk
+#spirv-tools
 vulkan-headers
 vulkan-radeon
 #vulkan-intel
 vulkan-tools
-vkd3d
+#vkd3d
 >multilib lib32-vulkan-radeon
 #>multilib lib32-vulkan-intel
 
