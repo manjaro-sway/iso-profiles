@@ -85,6 +85,8 @@ terminus-font
 >extra steam-deckify
 >extra gamescope-plus
 >extra gamescope-session-git
+>extra opengamepadui-bin
+>extra opengamepadui-session-git
 
 ## Package management
 >extra appimagelauncher
