@@ -35,4 +35,4 @@ if [[ -e pacman-key ]]; then
 fi
 
 # Disable the root login
-passwd --lock root
+#passwd --lock root
