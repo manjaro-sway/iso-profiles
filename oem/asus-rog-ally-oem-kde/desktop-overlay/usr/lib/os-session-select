@@ -34,7 +34,8 @@ case "$session" in
     session_uses_x11=1
   ;;
   gamescope)
-    session_launcher="gamescope-session.desktop"
+#    session_launcher="gamescope-session.desktop"
+    session_launcher="gamepadui-with-qam-session.desktop"
   ;;
   *)
     echo >&2 "!! Unrecognized session '$session'"
