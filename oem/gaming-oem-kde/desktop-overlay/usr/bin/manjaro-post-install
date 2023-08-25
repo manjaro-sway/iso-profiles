@@ -1,8 +1,4 @@
 #!/bin/sh
-# This is the post install script for ROG ALLY devices!
-
-# Expand the filesystem
-#resize-fs
 
 # Set chassis
 hostnamectl set-chassis handset
