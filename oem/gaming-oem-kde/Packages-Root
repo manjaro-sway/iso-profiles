@@ -42,7 +42,7 @@ man-pages
 mdadm
 memtest86+
 memtest86+-efi
-mesa-780m
+#mesa-780m
 mhwd
 mhwd-db
 mkinitcpio-openswap
