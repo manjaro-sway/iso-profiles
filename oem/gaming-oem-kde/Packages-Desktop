@@ -1,8 +1,8 @@
 ## Hardware Specific
 rog-ally-acpi-override
 handygccs-git
-mesa-780m
-lib32-mesa-780m
+#mesa-780m
+#lib32-mesa-780m
 
 ## Branding
 manjaro-kde-settings
