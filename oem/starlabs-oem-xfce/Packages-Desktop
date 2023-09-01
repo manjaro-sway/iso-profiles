@@ -66,7 +66,7 @@ terminus-font
 ## Package management
 >extra apparmor
 #>extra gnome-software-snap
-pamac-gtk
+pamac-gtk3
 >extra snapd
 >extra snapd-glib
 >extra pamac-snap-plugin
@@ -233,6 +233,7 @@ xorg-mkfontscale
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
+xdg-desktop-portal-gtk
 #xdg-su
 >extra timeshift
 #>extra kernel-alive
