@@ -38,7 +38,7 @@ pulseaudio-zeroconf
 
 ## Btrfs
 grub-btrfs
-timeshift-autosnap-manjaro
+>extra timeshift-autosnap-manjaro
 
 ## Connect Packages
 kamera
