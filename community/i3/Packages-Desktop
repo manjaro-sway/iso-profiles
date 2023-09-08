@@ -75,7 +75,7 @@ manjaro-i3-settings
 manjaro-ranger-settings
 >extra manjaro-settings-manager-notifier
 >extra matcha-gtk-theme
-mesa-demos
+mesa-utils
 mlocate
 mobile-broadband-provider-info
 moc
@@ -83,7 +83,7 @@ modemmanager
 morc_menu
 mousepad
 >multilib lib32-flex
->multilib lib32-mesa-demos
+>multilib lib32-mesa-utils
 ncdu
 netctl
 networkmanager

@@ -247,8 +247,8 @@ libva-vdpau-driver
 >multilib lib32-libva-mesa-driver
 >multilib lib32-libva-vdpau-driver
 mesa
-mesa-demos
->multilib lib32-mesa-demos
+mesa-utils
+>multilib lib32-mesa-utils
 mesa-vdpau
 #opencl-mesa
 libvdpau

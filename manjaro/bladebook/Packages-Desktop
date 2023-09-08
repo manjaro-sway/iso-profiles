@@ -281,8 +281,8 @@ xf86-input-void
 ## Xorg Server and Graphics
 >multilib lib32-libva-intel-driver
 libva-intel-driver
-mesa-demos
->multilib lib32-mesa-demos
+mesa-utils
+>multilib lib32-mesa-utils
 numlockx
 xdg-user-dirs
 xorg-server

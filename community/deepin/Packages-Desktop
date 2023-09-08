@@ -90,11 +90,11 @@ manjaro-hotfixes
 >extra manjaro-printer
 manjaro-pulse
 manjaro-settings-manager-notifier
-mesa-demos
+mesa-utils
 mlocate
 mobile-broadband-provider-info
 modemmanager
->multilib lib32-mesa-demos
+>multilib lib32-mesa-utils
 netctl
 networkmanager
 networkmanager-openconnect

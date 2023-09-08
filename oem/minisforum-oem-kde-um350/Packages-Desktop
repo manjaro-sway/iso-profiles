@@ -272,8 +272,8 @@ xf86-input-void
 >multilib lib32-libva-vdpau-driver
 libva-mesa-driver
 libva-vdpau-driver
-mesa-demos
->multilib lib32-mesa-demos
+mesa-utils
+>multilib lib32-mesa-utils
 numlockx
 xdg-user-dirs
 xorg-server
