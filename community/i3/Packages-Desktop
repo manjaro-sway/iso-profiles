@@ -20,7 +20,7 @@ clipit
 dfc
 dmidecode
 >extra downgrade
-epdfview
+mupdf
 fakeroot
 >extra ffmpeg
 >extra ffmpegthumbnailer
