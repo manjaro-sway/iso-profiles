@@ -73,11 +73,7 @@ class ConfigOem:
 
     def run(self):
         target_env_call(['groupadd', 'autologin'])
-        target_env_call(['mv', '/etc/skel', '/etc/skel_'])
-        target_env_call(['mv', '/etc/oemskel', '/etc/skel'])
         target_env_call(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', self.groups, 'gamer'])
-        target_env_call(['mv', '/etc/skel', '/etc/oemskel'])
-        target_env_call(['mv', '/etc/skel_', '/etc/skel'])
         self.change_user_password('gamer', 'gamer')
         path = os.path.join(self.root, "etc/sudoers.d/g_gamer")
         with open(path, "w") as oem_file:
