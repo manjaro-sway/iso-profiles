@@ -114,7 +114,7 @@ sddm-kcm
 ## Plasma5
 bluedevil
 breeze-gtk
-discover
+#discover
 drkonqi
 kde-gtk-config
 kdeplasma-addons
