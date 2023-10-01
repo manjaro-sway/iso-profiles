@@ -16,7 +16,7 @@ udisks2
 firefox
 
 ## Themes and arwork
-kvantum-theme-matcha
+kvantum-manjaro
 lxde-wallpapers
 manjaro-lxde-config
 manjaro-lxde-desktop-settings
@@ -76,7 +76,7 @@ xsel
 manjaro-settings-manager
 
 ## qt5 theme handling
-kvantum-qt5
+kvantum
 qt5ct
 
 ## network
