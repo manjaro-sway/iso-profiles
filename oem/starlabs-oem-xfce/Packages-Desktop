@@ -204,7 +204,7 @@ unrar  # RAR archive support
 
 ## Settings packages
 >extra manjaro-xfce-gtk3-settings
->basic manjaro-xfce-gtk3-minimal-settings
+>basic manjaro-xfce-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
