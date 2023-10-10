@@ -28,7 +28,7 @@ grub-btrfs
 >extra manjaro-alsa
 >extra manjaro-gstreamer
 >extra manjaro-modem
->extra manjaro-pulse
+>extra manjaro-pipewire
 
 
 ## Fonts
@@ -67,8 +67,6 @@ pamac-gtk
 ## GNOME group
 
 >extra baobab
->extra cheese
->basic eog                         # gthumb in full edition
 #epiphany                          # Firefox included as default browser
 evince
 gdm
@@ -111,11 +109,13 @@ gvfs
 >extra gvfs-mtp
 >extra gvfs-nfs
 >extra gvfs-smb
+>basic loupe                       # gthumb in full edition
 >extra malcontent                  # optional for gnome-control-center
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
 >extra simple-scan
+>extra snapshot
 sushi
 totem
 tracker3-miners
