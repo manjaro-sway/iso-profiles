@@ -290,7 +290,3 @@ xorg-server
 #xorg-twm                          # antiquated; optional for xorg-xinit
 xorg-xinit
 
-## Matti's corner
->extra bmenu
->extra manjaro-ranger-settings
->extra pacui
