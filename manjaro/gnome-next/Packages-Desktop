@@ -198,7 +198,6 @@ gnome-tweaks
 
 adw-gtk-theme
 bibata-cursor-theme
-gnome-shell-maia
 gnome-themes-extra                 # optional for gtk2
 #gnome-wallpapers
 grub-theme-manjaro
@@ -210,8 +209,6 @@ manjaro-gnome-backgrounds
 #>extra manjaro-wallpapers-18.0
 papirus-maia-icon-theme
 plymouth-theme-manjaro
-#qgnomeplatform-qt5
-#qgnomeplatform-qt6
 qt5ct
 qt6ct
 #>extra wallpapers-2018
