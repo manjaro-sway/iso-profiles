@@ -104,7 +104,8 @@ freetype2          # tumbler - for font thumbnails
 gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
-light-locker
+# light-locker     # remove it for now as it might double-lock in certain cases
+xfce4-screensaver
 network-manager-applet
 menulibre
 poppler-glib       # tumbler - for PDF thumbnails
