@@ -76,22 +76,21 @@ gnome-calendar
 >extra gnome-characters
 gnome-clocks
 #gnome-color-manager               # required by gnome-control-center
+>extra gnome-connections
 #gnome-console                     # gnome-terminal included instead
 >extra gnome-contacts
->extra gnome-connections
 gnome-control-center
 gnome-disk-utility
 >extra gnome-font-viewer
-gnome-keyring
+#gnome-keyring                     # required by xdg-desktop-portal-gnome
 gnome-logs
 >extra gnome-maps
 #gnome-menus                       # optional for gnome-shell-extension-arc-menu
 #gnome-music                       # lollypop included instead
-#gnome-photos
 >extra gnome-remote-desktop        # optional for gnome-control-center
 #gnome-session                     # required by gdm & gnome-shell
 #gnome-settings-daemon             # required by gnome-control-center, gnome-shell & mutter
-#gnome-shell                       # custom gnome-shell-maia used
+gnome-shell
 gnome-shell-extensions
 #gnome-software                    # pamac-gtk used instead
 gnome-system-monitor
@@ -117,6 +116,7 @@ nautilus
 >extra simple-scan
 >extra snapshot
 sushi
+#tecla                             # required by gnome-control-center
 totem
 tracker3-miners
 xdg-desktop-portal-gnome
@@ -127,18 +127,20 @@ xdg-user-dirs-gtk
 ## GNOME Extra applications
 
 #accerciser
+#cheese                            # snapshot included instead
 #d-spy                             # developer tools
 #>extra dconf-editor               # developer tools
 #devhelp                           # developer tools
 >extra endeavour
-#evolution                         # geary included instead
+#eog                               # loupe included instead
+#evolution                         # thunderbird included instead
 file-roller
->extra geary
+#>extra geary                      # thunderbird included instead
 gedit
 #ghex
 #gitg
 #glade
-#>extra gnome-boxes                # developer tools
+>extra gnome-boxes                 # developer tools
 #gnome-builder                     # developer tools
 #gnome-devel-docs
 #gnome-dictionary
@@ -146,6 +148,7 @@ gedit
 #gnome-multi-writer
 #gnome-nettool
 #gnome-notes
+#gnome-photos
 #gnome-recipes
 #gnome-sound-recorder
 gnome-terminal
@@ -160,11 +163,11 @@ gnome-tweaks
 
 #five-or-more
 #four-in-a-row
+#gnome-2048
 >extra gnome-chess
 #gnome-klotski
 #gnome-mahjongg
 >extra gnome-mines
-#gnome-2048
 #gnome-nibbles
 #gnome-robots
 #gnome-sudoku
@@ -218,7 +221,7 @@ qt6ct
 ## Applications
 
 >extra apparmor
->extra caffeine-ng
+#>extra caffeine-ng
 >extra collision
 >extra deja-dup
 >extra ffmpegthumbnailer
@@ -238,7 +241,7 @@ gnome-firmware
 htop
 ibus
 inxi
-#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator & caffeine-ng
+#>extra libappindicator-gtk3       # required by gnome-shell-extension-appindicator
 lollypop
 #manjaro-application-utility       # required by manjaro-hello, no need to be explicitly installed
 #manjaro-gnome-vanilla             # unmaintained, needs updating
@@ -253,6 +256,7 @@ nautilus-empty-file
 #>extra onlyoffice-desktopeditors  # office program is chosen during install
 #polkit-gnome                      # deprecated
 >extra power-profiles-daemon       # optional for gnome-control-center
+>extra thunderbird
 >extra timeshift
 #tlp                               # conflicts with power-profiles-daemon
 >extra touche
