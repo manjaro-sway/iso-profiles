@@ -1,5 +1,5 @@
 ## Hardware Specific
-handygccs-git
+#handygccs-git #not needed when OGUI-QAM is used
 game-devices-udev
 
 ## Branding
