@@ -79,10 +79,14 @@ terminus-font
 >extra ttf-droid
 
 ## Games
+>extra protonutils
+>extra protonup-qt
 >extra steam
 >extra steam-deckify
 >extra gamescope-plus
 >extra gamescope-session-git
+>extra gamemode
+>multilib lib32-gamemode
 >extra opengamepadui-bin
 >extra opengamepadui-session-git
 
