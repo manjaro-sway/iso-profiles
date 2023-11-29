@@ -28,11 +28,10 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 libdvdcss
->multilib manjaro-alsa
-manjaro-pulse
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+manjaro-alsa
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
 
 ## Connect Packages
 android-tools

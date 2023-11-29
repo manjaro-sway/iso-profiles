@@ -25,10 +25,10 @@ grub-btrfs
 ## Libraries for Sound/Audio/Video
 
 >extra libdvdcss
->extra manjaro-alsa
->extra manjaro-gstreamer
+manjaro-alsa
+manjaro-gstreamer
 >extra manjaro-modem
->extra manjaro-pipewire
+manjaro-pipewire
 
 
 ## Fonts
