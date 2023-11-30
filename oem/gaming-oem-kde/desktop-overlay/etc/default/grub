@@ -44,7 +44,6 @@ GRUB_COLOR_HIGHLIGHT="green/black"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
 #GRUB_BACKGROUND="/usr/share/grub/background.png"
-#GRUB_THEME="/path/to/gfxtheme"
 GRUB_THEME="/usr/share/grub/themes/manjaro/theme.txt" 
 
 # Uncomment to get a beep at GRUB start
