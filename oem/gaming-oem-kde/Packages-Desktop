@@ -2,10 +2,17 @@
 #handygccs-git #not needed when OGUI-QAM is used
 game-devices-udev
 
-## Branding
-manjaro-kde-settings
-plymouth-theme-manjaro
-manjaro-zsh-config
+## Games
+>extra protonutils
+>extra protonup-qt
+>extra steam
+>extra steam-deckify
+>extra gamescope-plus
+>extra gamescope-session-git
+>extra gamemode
+>multilib lib32-gamemode
+>extra opengamepadui-bin
+>extra opengamepadui-session-git
 
 ## Network
 avahi
@@ -14,6 +21,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
+networkmanager-l2tp
 nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
@@ -34,29 +42,18 @@ gst-plugins-good
 gst-plugins-ugly
 libcanberra
 >multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
 libdvdcss
 manjaro-alsa
-manjaro-pulse
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
 phonon-qt5-gstreamer
-pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
- 
+
 ## Btrfs
 grub-btrfs
 >extra timeshift-autosnap-manjaro
 
 ## Connect Packages
-android-tools
-android-udev
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 kamera
 mtpfs
 udiskie
@@ -78,27 +75,15 @@ terminus-font
 >extra ttf-liberation
 >extra ttf-droid
 
-## Games
->extra protonutils
->extra protonup-qt
->extra steam
->extra steam-deckify
->extra gamescope-plus
->extra gamescope-session-git
->extra gamemode
->multilib lib32-gamemode
->extra opengamepadui-bin
->extra opengamepadui-session-git
-
 ## Package management
->extra appimagelauncher
+#>extra appimagelauncher
 pamac-gtk3
 pamac-tray-icon-plasma
 pamac-cli
->extra apparmor
->extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
 >extra pamac-flatpak-plugin
 #discover-snap
 #discover
@@ -109,42 +94,57 @@ packagekit-qt5
 #octopi-repoeditor
 #octopi-notifier-frameworks
 #pamac-qt
-manjaro-application-utility
+#manjaro-application-utility
+
+## Printing
+>extra manjaro-printer
+>extra gtk3-print-backends
+
+## Optional dependencies for hplip
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
 
 ## Display manager
 sddm
 sddm-kcm
 
 ## Plasma5
+audiocd-kio
 bluedevil
-breeze-gtk
-#discover
-drkonqi
 kde-gtk-config
 kdeplasma-addons
 kgamma
-khotkeys
 kinfocenter
+kmenuedit
 kscreen
+kscreenlocker
 ksshaskpass
+ksysguard
 kwallet-pam
 kwayland-integration
+kwin
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 kwrited
-plasma-browser-integration
+milou
 plasma-desktop
-plasma-disks
-plasma-firewall
 plasma-nm
 plasma-pa
-plasma-systemmonitor
-plasma-thunderbolt
-plasma-vault
-plasma-wayland-session
-plasma-workspace-wallpapers
+plasma-simplemenu
+#plasma-wayland-session # seems to need sddm-git
+plasma-workspace
+>extra plasma-workspace-wallpapers
 powerdevil
+systemsettings
+plasma-browser-integration
 xdg-desktop-portal-kde
-flatpak-kcm
-plymouth-kcm
+#plasma-welcome
+plasma-thunderbolt
 
 ## Themes QT/GTK/SDDM
 gnome-themes-standard
@@ -153,6 +153,8 @@ oxygen-icons
 sddm-breath-theme
 grub-theme-manjaro
 breeze-gtk
+plymouth
+plymouth-theme-manjaro
 
 ## KDE Applications
 ark
@@ -160,14 +162,17 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
-#>extra k3b
 kate
 kcalc
 >extra keditbookmarks
 kfind
 kdeconnect
 okular
+#>extra >x86_64 kget
+#>extra >x86_64 libktorrent
+#>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
+#>extra kdenlive
 khelpcenter
 khotkeys
 kinit # for "Open in Terminal" action
@@ -177,16 +182,22 @@ konsole
 ksystemlog
 kwalletmanager
 gwenview
+partitionmanager
+>extra print-manager
+>extra skanlite
 spectacle
 
 ## Optional dependencies for ark
 p7zip  # 7Z format support
 unarchiver  # RAR format support
 
+## Optional dependency for digikam
+#>extra kipi-plugins  # export to various online services
+#>extra hugin         # panorama tool
+
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
 kimageformats5     # support for dds, xcf, exr, psd, and more image formats
@@ -198,44 +209,60 @@ kaccounts-providers
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
 
+## Optional dependencies for kdenlive
+#>extra cdrtools         # for creation of DVD ISO images
+#>extra dvdauthor        # for creation of DVD
+#>extra dvgrab           # for firewire capture
+#>extra recordmydesktop  # for screen capture
+#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
+#>extra movit            # for GPU video processing
+
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 >extra elisa
 dmidecode # for inxi -m output
-discord
-element-desktop
 firefox
 htop
 inxi
+#>extra krita
+#ms-office-online
+#>extra onlyoffice-desktopeditors
+#>extra freeoffice
+#>extra libreoffice-still
 #manjaro-hello
-#manjaro-application-utility
-#manjaro-settings-manager-kcm
-#manjaro-settings-manager-knotifier
+manjaro-application-utility
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
->extra qbittorrent
-screenfetch
+#>extra qbittorrent
+neofetch
 systemd-kcm
-#skype-web-jak
-#telegram-desktop
+plymouth-kcm
 #>extra thunderbird
 >extra vlc
+yakuake
+
+## Documentation
+#manjaro-documentation-en
 
 ## Settings packages
+manjaro-kde-settings
 manjaro-browser-settings
 
 ## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-synaptics
 xf86-input-void
 
 ## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
 >multilib lib32-libva-vdpau-driver
+libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
 mesa-utils
@@ -248,28 +275,13 @@ xorg-xinit
 xorg-xkill
 xorg-mkfontscale
 
-## Vulkan
-#amdvlk
-#spirv-tools
-vulkan-headers
-vulkan-radeon
-#vulkan-intel
-vulkan-tools
-#vkd3d
->multilib lib32-vulkan-radeon
-#>multilib lib32-vulkan-intel
-
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
-zensu
 >extra timeshift
-gnome-firmware
+#>extra kernel-alive
+power-profiles-daemon
 
 ## Misc
 manjaro-hotfixes
 >basic squashfs-tools
-
-## Flatpak support
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
