@@ -76,7 +76,7 @@ manjaro-cinnamon-settings
 manjaro-hello
 manjaro-hotfixes
 >extra manjaro-printer
-manjaro-pulse
+#manjaro-pulse
 manjaro-settings-manager-notifier
 >extra mesa-utils
 >basic midori
