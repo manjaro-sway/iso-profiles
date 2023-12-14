@@ -115,9 +115,9 @@ pkg-config
 >extra poppler-data
 >extra powertop
 #>extra pragha
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
+#>extra pulseaudio-bluetooth
+#pulseaudio-ctl
+#pulseaudio-zeroconf
 python-ptyprocess
 screenfetch
 >extra snapd
