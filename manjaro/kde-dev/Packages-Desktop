@@ -30,7 +30,7 @@ libcanberra-pulse
 libdvdcss
 manjaro-alsa
 manjaro-pulse
-phonon-qt5-gstreamer
+#phonon-qt5-gstreamer
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
@@ -171,8 +171,8 @@ kate
 kcalc
 >extra keditbookmarks
 kfind
-kdeconnect
-okular
+#kdeconnect
+#okular
 >extra >x86_64 kget
 >extra >x86_64 libktorrent
 >extra >i686 kdenetwork-kget
@@ -217,7 +217,7 @@ ruby                      # installing new service menus with GHNS
 #>extra vcdimager     # for vcd burning support
 
 ## Optional dependencies for kaccounts-integration
-kaccounts-providers
+#kaccounts-providers
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
@@ -231,7 +231,7 @@ sshfs  # remote filesystem browser
 #>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
-poppler-data  # encoding data to display PDF documents containing CJK characters
+#poppler-data  # encoding data to display PDF documents containing CJK characters
 
 ## Applications
 #>extra cantata
