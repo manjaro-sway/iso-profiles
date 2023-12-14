@@ -78,7 +78,7 @@ manjaro-ranger-settings
 mesa-utils
 mlocate
 mobile-broadband-provider-info
-moc
+#moc
 modemmanager
 morc_menu
 mousepad
