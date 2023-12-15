@@ -62,7 +62,7 @@ manjaro-alsa
 manjaro-artwork
 manjaro-browser-settings
 manjaro-hotfixes
-#manjaro-pulse
+manjaro-pipewire
 manjaro-settings-manager-notifier
 manjaro-hello
 manjaro-application-utility
