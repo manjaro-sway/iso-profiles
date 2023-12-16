@@ -1,160 +1,222 @@
-adapta-maia-theme
-alsa-firmware
-alsa-utils
->extra apparmor
-autoconf
-automake
-avahi
->extra baobab
-binutils
-bison
->extra blueman
->extra celluloid
-#cinnamon-panel-chooser
-cinnamon-sounds
-cinnamon-translations
->extra cinnamon-wallpapers
->extra dconf-editor
->extra deluge
-dmidecode
-#>extra etcher
-fakeroot
->extra ffmpegthumbnailer
-#>extra firefox
-flatpak
-flex
-gvfs-goa
-gvfs-google
->extra galculator
->extra gcc
->extra gcolor3
->extra gimp
->extra git
->extra gnome-disk-utility
-gnome-keyring
->extra gnome-online-accounts
->extra gnome-screenshot
->extra gnome-system-monitor
-gnome-terminal
-gnome-themes-standard
-gnu-free-fonts
->extra gparted
->extra gprename
-grub-theme-manjaro
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra gstreamer
-gtkhash-nemo
->extra gufw
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-htop
->extra hexchat
-icon-naming-utils
-inxi
->extra jre8-openjdk
->extra jre8-openjdk-headless
->multilib lib32-flex
-libtool
->extra libdvdcss
->extra libgsf
-lightdm-settings
-lightdm-slick-greeter
->extra lollypop
-m4
-make
-manjaro-alsa
-manjaro-application-utility
-manjaro-browser-settings
-manjaro-cinnamon-settings
-#>extra manjaro-documentation-en
-manjaro-hello
-manjaro-hotfixes
->extra manjaro-printer
-manjaro-pipewire
-manjaro-settings-manager-notifier
->extra mesa-utils
->basic midori
-mintstick
->extra mobile-broadband-provider-info
->extra modemmanager
->extra mousetweaks
->extra microsoft-office-web-jak
->extra mugshot
->multilib lib32-mesa-utils
-# >extra nemo-bulk-rename
->extra nemo-fileroller
->extra nemo-preview
->extra nemo-python
->extra nemo-share
+## Network
+
+avahi                              # required by gvfs
+>extra mobile-broadband-provider-info  # required by networkmanager & modemmanager
+>extra modemmanager                # optional for networkmanager
 netctl
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-nss-mdns
+nss-mdns                           # optional for avahi
 ntp
-numlockx
-openresolv
-openssh
->extra openvpn
->extra p7zip
-pamac
-papirus-maia-icon-theme
->extra parcellite
-patch
->extra patchutils
-pavucontrol
+openresolv                         # optional for networkmanager
+openssh                            # required by gnome-keyring
+>extra openvpn                     # required by networkmanager-openvpn
+
+
+## Libraries for Sound/Audio/Video
+
+alsa-firmware                      # required by manjaro-alsa
+alsa-utils                         # required by manjaro-alsa
+>extra gst-libav                   # required by manjaro-gstreamer, optional for lollypop
+>extra gst-plugins-bad             # required by manjaro-gstreamer
+>extra gst-plugins-base            # required by manjaro-gstreamer, optional for lollypop
+>extra gst-plugins-good            # required by manjaro-gstreamer
+>extra gst-plugins-ugly            # required by manjaro-gstreamer, optional for lollypop
+>extra gstreamer                   # required by cinnamon
+>extra libdvdcss
+manjaro-alsa
+manjaro-pipewire
+
+
+## Fonts
+
+gnu-free-fonts                     # required by vivaldi
+>extra terminus-font
+ttf-dejavu                         # required by thunderbird
+>extra ttf-droid                   # required by thunderbird
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation              # required by thunderbird
+
+
+## Package management
+pamac                              # replace with pamac-gtk3
+
+
+## Printing
+
+>extra manjaro-printer
+>extra system-config-printer       # optional for cinnamon & manjaro-printer
+
+
+## Cinnamon
+
+#cinnamon-panel-chooser
+cinnamon-sounds                    # optional for manjaro-cinnamon-settings
+cinnamon-translations              # optional for various cinnamon packages
+>extra cinnamon-wallpapers         # optional for artwork-cinnamon-minimal
+
+
+## X-Apps group
+
 >extra pix
-pkg-config
->extra poppler-data
+xed
+>extra xreader
+>extra xviewer-plugins
+
+
+## GNOME group
+
+>extra baobab
+>extra gnome-disk-utility
+gnome-keyring
+>extra gnome-system-monitor
+gvfs-afc
+gvfs-goa                           # required by gvfs-google
+gvfs-google                        # optional for gnome-online-accounts
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+xdg-user-dirs-gtk
+yelp
+
+
+## GNOME Extra
+
+>extra dconf-editor                # developer tools
+gnome-terminal
+
+
+## Themes
+
+adapta-maia-theme
+bibata-cursor-theme                # required by manjaro-cinnamon settings
+gnome-themes-standard              # now called gnome-themes-extra, optional for cinnamon
+grub-theme-manjaro
+papirus-maia-icon-theme            # required by manjaro-cinnamon settings
+
+
+## Applications
+
+>extra apparmor
+autoconf                           # base-devel
+automake                           # base-devel
+binutils                           # base-devel
+bison                              # base-devel
+>extra blueman
+>extra celluloid
+>extra deluge
+#>extra etcher                     # Drop, does not exist
+fakeroot                           # base-devel
+>extra ffmpegthumbnailer
+#>extra firefox
+flatpak
+flex                               # base-devel
+>extra galculator
+>extra gcc                         # base-devel
+>extra gcolor3
+>extra gimp
+>extra git                         # Why?
+>extra gnome-online-accounts       # optional for cinnamon-control-center, required by gnome-control-center
+>extra gnome-screenshot
+>extra gparted
+>extra gprename                    # required by nemo-bulk-rename
+gtkhash-nemo
+>extra gufw
+htop
+>extra hexchat                     # depends on gtk2, replace?
+icon-naming-utils
+inxi
+>extra jre8-openjdk                # Why?
+>extra jre8-openjdk-headless       # Why?
+>multilib lib32-flex               # Why?
+libtool                            # base-devel
+>extra libgsf                      # optional for nemo
+lightdm-settings
+lightdm-slick-greeter              # required by lightdm-settings
+>extra lollypop
+m4                                 # base-devel
+make                               # base-devel
+manjaro-application-utility        # optional for manjaro-hello
+manjaro-hello
+manjaro-hotfixes                   # Drop, obsolete
+manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
+>extra microsoft-office-web-jak
+>basic midori
+mintstick
+>extra mousetweaks
+>extra mugshot
+>multilib lib32-mesa-utils         # Why?
+#>extra nemo-bulk-rename
+>extra nemo-fileroller
+>extra nemo-preview
+>extra nemo-python
+>extra nemo-share
+>extra parcellite
+patch                              # base-devel
+>extra patchutils                  # Why?
+pavucontrol
+pkg-config                         # base-devel
+>extra poppler-data                # required by gimp
 >extra powertop
 #>extra pragha
 #>extra pulseaudio-bluetooth
 #pulseaudio-ctl
 #pulseaudio-zeroconf
-python-ptyprocess
+python-ptyprocess                  # Why?
 screenfetch
->extra snapd
->basic squashfs-tools
->extra subversion
->extra system-config-printer
->extra terminus-font
+>extra snapd                       # Why?
+>extra subversion                  # Why?
 >extra thunderbird
 >extra timeshift
-touchegg
+touchegg                           # optional for cinnamon
 tree
-ttf-dejavu
->extra ttf-droid
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
 >extra udiskie
 vi
-bibata-cursor-theme
-xdg-user-dirs-gtk
-xdg-utils
-xed
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-xf86-input-void
-xorg-twm
 >extra vivaldi
->extra vivaldi-ffmpeg-codecs
+>extra vivaldi-ffmpeg-codecs       # optional for vivaldi
+xdg-utils
+#>extra xplayercinnamon            # Drop, does not exist
+>extra yay                         # We already have pamac, no need
+zensu                              # Why?
+
+## Optional dependencies for file-roller
+>extra p7zip
+>basic squashfs-tools
+
+
+## Optional dependencies for inxi
+dmidecode
+mesa-utils
+
+
+## Documentation
+#>extra manjaro-documentation-en
+
+
+## Settings packages
+
+manjaro-browser-settings
+manjaro-cinnamon-settings
+
+
+## Xorg Input Drivers
+
+xf86-input-elographics             # required by manjaro-input
+xf86-input-evdev                   # required by manjaro-input
+xf86-input-libinput                # required by manjaro-input
+xf86-input-void                    # required by manjaro-input
+
+
+## Xorg Server
+
+numlockx                           # not used and not needed
+xorg-twm                           # antiquated; optional for xorg-xinit
 xorg-xinit
-#>extra xplayer
->extra xreader
->extra xviewer-plugins
 xorg-server
 xorg-xhost
 xorg-xkill
->extra xorg-xrandr
->extra yay
-yelp
-zensu
+>extra xorg-xrandr                 # optional for inxi
+
