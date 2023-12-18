@@ -42,7 +42,9 @@ ttf-dejavu                         # required by thunderbird
 
 
 ## Package management
-pamac                              # replace with pamac-gtk3
+pamac-gtk3
+>extra pamac-flatpak-plugin
+#>extra pamac-snap-plugin
 
 
 ## Printing
@@ -149,7 +151,6 @@ pavucontrol
 #pulseaudio-ctl
 #pulseaudio-zeroconf
 screenfetch
->extra snapd                       # Why?
 >extra thunderbird
 >extra timeshift
 touchegg                           # optional for cinnamon
