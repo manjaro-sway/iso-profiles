@@ -95,7 +95,7 @@ gnome-terminal
 
 adapta-maia-theme
 bibata-cursor-theme                # required by manjaro-cinnamon settings
-gnome-themes-standard              # now called gnome-themes-extra, optional for cinnamon
+gnome-themes-extra
 grub-theme-manjaro
 papirus-maia-icon-theme            # required by manjaro-cinnamon settings
 
