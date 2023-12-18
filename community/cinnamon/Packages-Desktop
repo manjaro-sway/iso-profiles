@@ -1,7 +1,6 @@
 ## Network
 
 avahi                              # required by gvfs
->extra mobile-broadband-provider-info  # required by networkmanager & modemmanager
 >extra modemmanager                # optional for networkmanager
 netctl
 networkmanager-openconnect
