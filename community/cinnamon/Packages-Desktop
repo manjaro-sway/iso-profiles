@@ -32,8 +32,10 @@ manjaro-pipewire
 
 ## Fonts
 
+cantarell-fonts                    # required by manjaro-cinnamon settings
 gnu-free-fonts                     # required by vivaldi
 >extra terminus-font
+ttf-comfortaa                      # required by manjaro-cinnamon settings
 ttf-dejavu                         # required by thunderbird
 >extra ttf-droid                   # required by thunderbird
 >extra ttf-inconsolata
@@ -55,6 +57,7 @@ pamac-gtk3
 
 ## Cinnamon
 
+cinnamon                           # required by manjaro-cinnamon settings & several other packages
 #cinnamon-panel-chooser
 cinnamon-sounds                    # optional for manjaro-cinnamon-settings
 cinnamon-translations              # optional for various cinnamon packages
@@ -94,10 +97,16 @@ gnome-terminal
 ## Themes
 
 adapta-maia-theme
+artwork-cinnamon-minimal           # required by manjaro-cinnamon settings
 bibata-cursor-theme                # required by manjaro-cinnamon settings
 gnome-themes-extra
 grub-theme-manjaro
+kvantum-manjaro                    # required by manjaro-cinnamon settings
+mint-l-theme                       # required by manjaro-cinnamon settings
+mint-themes                        # required by manjaro-cinnamon settings
 papirus-maia-icon-theme            # required by manjaro-cinnamon settings
+#plymouth-theme-manjaro-cinnamon   # optional for manjaro-cinnamon settings
+qt5ct                              # required by manjaro-cinnamon settings
 
 
 ## Applications
