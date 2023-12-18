@@ -63,6 +63,11 @@ cinnamon-translations              # optional for various cinnamon packages
 xed
 >extra xreader
 >extra xviewer-plugins
+>extra xapp-appimage-thumbnailer
+>extra xapp-epub-thumbnailer
+>extra xapp-mp3-thumbnailer
+>extra xapp-raw-thumbnailer
+>extra xapp-vorbiscomment-thumbnailer
 
 
 ## GNOME group
