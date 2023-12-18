@@ -101,21 +101,14 @@ papirus-maia-icon-theme            # required by manjaro-cinnamon settings
 ## Applications
 
 >extra apparmor
-autoconf                           # base-devel
-automake                           # base-devel
-binutils                           # base-devel
-bison                              # base-devel
 >extra blueman
 >extra celluloid
 >extra deluge
 #>extra etcher                     # Drop, does not exist
-fakeroot                           # base-devel
 >extra ffmpegthumbnailer
 #>extra firefox
 flatpak
-flex                               # base-devel
 >extra galculator
->extra gcc                         # base-devel
 >extra gcolor3
 >extra gimp
 >extra git                         # Why?
@@ -132,13 +125,10 @@ inxi
 >extra jre8-openjdk                # Why?
 >extra jre8-openjdk-headless       # Why?
 >multilib lib32-flex               # Why?
-libtool                            # base-devel
 >extra libgsf                      # optional for nemo
 lightdm-settings
 lightdm-slick-greeter              # required by lightdm-settings
 >extra lollypop
-m4                                 # base-devel
-make                               # base-devel
 manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
 manjaro-hotfixes                   # Drop, obsolete
@@ -155,10 +145,8 @@ mintstick
 >extra nemo-python
 >extra nemo-share
 >extra parcellite
-patch                              # base-devel
 >extra patchutils                  # Why?
 pavucontrol
-pkg-config                         # base-devel
 >extra poppler-data                # required by gimp
 >extra powertop
 #>extra pragha
@@ -179,7 +167,6 @@ vi
 >extra vivaldi-ffmpeg-codecs       # optional for vivaldi
 xdg-utils
 #>extra xplayercinnamon            # Drop, does not exist
->extra yay                         # We already have pamac, no need
 zensu                              # Why?
 
 ## Optional dependencies for file-roller
