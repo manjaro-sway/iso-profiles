@@ -104,7 +104,6 @@ papirus-maia-icon-theme            # required by manjaro-cinnamon settings
 >extra blueman
 >extra celluloid
 >extra deluge
-#>extra etcher                     # Drop, does not exist
 >extra ffmpegthumbnailer
 #>extra firefox
 flatpak
@@ -129,7 +128,6 @@ lightdm-slick-greeter              # required by lightdm-settings
 >extra lollypop
 manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
-manjaro-hotfixes                   # Drop, obsolete
 manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
 >extra microsoft-office-web-jak
 >basic midori
@@ -161,7 +159,6 @@ vi
 >extra vivaldi
 >extra vivaldi-ffmpeg-codecs       # optional for vivaldi
 xdg-utils
-#>extra xplayercinnamon            # Drop, does not exist
 zensu                              # Why?
 
 ## Optional dependencies for file-roller
@@ -194,8 +191,8 @@ xf86-input-void                    # required by manjaro-input
 
 ## Xorg Server
 
-numlockx                           # not used and not needed
-xorg-twm                           # antiquated; optional for xorg-xinit
+#numlockx                           # not used and not needed
+#xorg-twm                           # antiquated; optional for xorg-xinit
 xorg-xinit
 xorg-server
 xorg-xhost
