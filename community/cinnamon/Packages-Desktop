@@ -124,8 +124,6 @@ htop
 >extra hexchat                     # depends on gtk2, replace?
 icon-naming-utils
 inxi
->extra jre8-openjdk                # Why?
->extra jre8-openjdk-headless       # Why?
 >extra libgsf                      # optional for nemo
 lightdm-settings
 lightdm-slick-greeter              # required by lightdm-settings
