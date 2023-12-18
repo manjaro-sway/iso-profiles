@@ -17,16 +17,10 @@ openssh                            # required by gnome-keyring
 
 ## Libraries for Sound/Audio/Video
 
-alsa-firmware                      # required by manjaro-alsa
-alsa-utils                         # required by manjaro-alsa
->extra gst-libav                   # required by manjaro-gstreamer, optional for lollypop
->extra gst-plugins-bad             # required by manjaro-gstreamer
->extra gst-plugins-base            # required by manjaro-gstreamer, optional for lollypop
->extra gst-plugins-good            # required by manjaro-gstreamer
->extra gst-plugins-ugly            # required by manjaro-gstreamer, optional for lollypop
 >extra gstreamer                   # required by cinnamon
 >extra libdvdcss
 manjaro-alsa
+manjaro-gstreamer
 manjaro-pipewire
 
 
