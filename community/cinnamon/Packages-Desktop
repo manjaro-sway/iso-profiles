@@ -169,7 +169,10 @@ zensu                              # Why?
 
 ## Optional dependencies for file-roller
 >extra p7zip
->basic squashfs-tools
+>extra unrar
+>extra unace
+>extra lrzip
+>extra squashfs-tools
 
 
 ## Optional dependencies for inxi
