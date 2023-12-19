@@ -197,7 +197,7 @@ manjaro-cinnamon-settings
 
 ## Xorg Server
 
-#numlockx                           # not used and not needed
+numlockx                            # optional for lightdm-slick-greeter
 #xorg-twm                           # antiquated; optional for xorg-xinit
 xorg-xinit
 xorg-server
