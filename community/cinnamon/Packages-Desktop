@@ -170,9 +170,6 @@ pavucontrol
 >extra poppler-data                # required by gimp
 >extra powertop
 #>extra pragha
-#>extra pulseaudio-bluetooth
-#pulseaudio-ctl
-#pulseaudio-zeroconf
 python-pyxdg                       # optional for redshift, needed for redshift GUI
 redshift
 screenfetch
