@@ -173,6 +173,8 @@ pavucontrol
 #>extra pulseaudio-bluetooth
 #pulseaudio-ctl
 #pulseaudio-zeroconf
+python-pyxdg                       # optional for redshift, needed for redshift GUI
+redshift
 screenfetch
 >extra thunderbird
 >extra timeshift
