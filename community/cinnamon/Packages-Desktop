@@ -57,6 +57,26 @@ cinnamon-translations              # optional for various cinnamon packages
 >extra cinnamon-wallpapers         # optional for artwork-cinnamon-minimal
 
 
+## Nemo extensions
+
+gtkhash-nemo
+#nemo-audio-tab
+#>extra nemo-bulk-rename
+#nemo-compare                      # AUR
+#nemo-dropbox                      # AUR
+#nemo-emblems
+#nemo-media-columns                # pypdf2 in AUR but mostly unmaintained
+>extra nemo-fileroller
+#nemo-image-converter
+#nemo-pastebin
+>extra nemo-preview
+>extra nemo-python
+#nemo-repairer                     # AUR
+#nemo-seahorse
+>extra nemo-share
+#nemo-terminal
+
+
 ## X-Apps group
 
 #bulky
@@ -126,7 +146,6 @@ flatpak
 >extra gnome-screenshot
 >extra gparted
 >extra gprename                    # required by nemo-bulk-rename
-gtkhash-nemo
 >extra gufw
 htop
 >extra hexchat                     # depends on gtk2, replace?
@@ -145,11 +164,6 @@ mintstick
 >extra mousetweaks
 >extra mugshot
 >multilib lib32-mesa-utils         # Why?
-#>extra nemo-bulk-rename
->extra nemo-fileroller
->extra nemo-preview
->extra nemo-python
->extra nemo-share
 >extra parcellite
 pavucontrol
 >extra poppler-data                # required by gimp
