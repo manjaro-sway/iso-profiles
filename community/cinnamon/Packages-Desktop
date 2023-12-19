@@ -161,9 +161,10 @@ manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
 >extra microsoft-office-web-jak
 >basic midori
 mintstick
->extra mousetweaks
+>extra mousetweaks                 # optional for onboard
 >extra mugshot
 >multilib lib32-mesa-utils         # Why?
+>extra onboard
 >extra parcellite
 pavucontrol
 >extra poppler-data                # required by gimp
