@@ -59,15 +59,18 @@ cinnamon-translations              # optional for various cinnamon packages
 
 ## X-Apps group
 
+#bulky
 >extra pix
+#sticky
+#thingy
 xed
->extra xreader
->extra xviewer-plugins
 >extra xapp-appimage-thumbnailer
 >extra xapp-epub-thumbnailer
 >extra xapp-mp3-thumbnailer
 >extra xapp-raw-thumbnailer
 >extra xapp-vorbiscomment-thumbnailer
+>extra xreader
+>extra xviewer-plugins
 
 
 ## GNOME group
