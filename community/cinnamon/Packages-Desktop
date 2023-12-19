@@ -181,6 +181,7 @@ tree
 vi
 >extra vivaldi
 >extra vivaldi-ffmpeg-codecs       # optional for vivaldi
+>extra webapp-manager
 xdg-utils
 zensu                              # Why?
 
