@@ -145,7 +145,7 @@ flatpak
 >extra gnome-online-accounts       # optional for cinnamon-control-center, required by gnome-control-center
 >extra gnome-screenshot
 >extra gparted
->extra gprename                    # required by nemo-bulk-rename
+#>extra gprename                    # required by nemo-bulk-rename
 >extra gufw
 htop
 >extra hexchat                     # depends on gtk2, replace?
