@@ -3,7 +3,7 @@ KERNEL-nvidia
 nvidia-prime
 nvidia-settings
 nvidia-utils
->mulitlib lib32-nvidia-utils
+>multilib lib32-nvidia-utils
 optimus-manager-plasma
 
 ## OEM
