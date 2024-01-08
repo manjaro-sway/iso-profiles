@@ -1,3 +1,11 @@
+## Hardware Specific
+KERNEL-nvidia
+nvidia-prime
+nvidia-settings
+nvidia-utils
+>mulitlib lib32-nvidia-utils
+optimus-manager-plasma
+
 ## OEM
 calamares
 calamares-oem-modules
@@ -16,6 +24,7 @@ KERNEL-headers
 >extra protonutils
 >extra protonup-qt
 >extra steam
+>extra linux-steam-integration
 #>extra steam-deckify # Needs to be clarified with Valve Software first
 #>extra gamescope-plus
 #>extra gamescope-session-git
@@ -25,6 +34,7 @@ KERNEL-headers
 >extra opengamepadui-session-git
 >extra winetricks
 >extra discord
+>extra mangohud
 
 ## Proprietary bundles
 >extra crossover
