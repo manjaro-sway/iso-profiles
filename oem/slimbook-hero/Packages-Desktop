@@ -24,6 +24,7 @@ KERNEL-headers
 >extra opengamepadui-bin
 >extra opengamepadui-session-git
 >extra winetricks
+>extra discord
 
 ## Proprietary bundles
 >extra crossover
