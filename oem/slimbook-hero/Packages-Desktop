@@ -1,3 +1,34 @@
+## OEM
+calamares
+calamares-oem-modules
+calamares-oem-kde-settings
+#slimbookintelcontroller # redundant for Hero as it has a dedicated performance button
+slimbook-qc71-dkms
+slimbook-rgb-keyboard
+slimbook_service
+slimbookbattery 
+KERNEL-headers
+
+## Games
+>extra lutris
+>extra heroic-games-launcher
+>extra protontricks
+>extra protonutils
+>extra protonup-qt
+>extra steam
+#>extra steam-deckify # Needs to be clarified with Valve Software first
+#>extra gamescope-plus
+#>extra gamescope-session-git
+>extra gamemode
+>multilib lib32-gamemode
+>extra opengamepadui-bin
+>extra opengamepadui-session-git
+>extra winetricks
+
+## Proprietary bundles
+>extra crossover
+>extra crossover-extras
+
 ## Network
 avahi
 networkmanager
