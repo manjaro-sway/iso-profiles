@@ -16,6 +16,7 @@ slimbook-rgb-keyboard
 slimbook_service
 slimbookbattery 
 KERNEL-headers
+KERNEL-acpi_call
 
 ## Games
 >extra lutris
@@ -26,7 +27,7 @@ KERNEL-headers
 >extra steam
 >extra linux-steam-integration
 #>extra steam-deckify # Needs to be clarified with Valve Software first
-#>extra gamescope-plus
+>extra gamescope-plus
 #>extra gamescope-session-git
 >extra gamemode
 >multilib lib32-gamemode
