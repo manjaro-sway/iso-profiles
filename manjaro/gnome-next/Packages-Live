@@ -1,1 +1,15 @@
-../../shared/Packages-Live
+btrfs-assistant
+calamares
+clonezilla
+gparted
+grub-theme-live-manjaro
+gsmartcontrol
+#manjaro-architect
+manjaro-live-skel
+manjaro-live-systemd
+manjaro-rescue
+mkinitcpio-nfs-utils
+nbd
+snapper-gui
+timeshift
+virtualbox-guest-utils
