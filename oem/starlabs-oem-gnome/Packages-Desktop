@@ -243,7 +243,6 @@ lollypop
 manjaro-application-utility
 #manjaro-gnome-vanilla             # unmaintained, needs updating
 manjaro-hello
->extra manjaro-log-helper
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 #manjaro-starter                    # Currently in testing for 23.0 in gnome-next
