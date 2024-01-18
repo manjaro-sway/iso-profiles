@@ -247,7 +247,6 @@ xorg-server
 
 ## Misc
 >extra gtkhash-thunar
-manjaro-hotfixes
 >basic squashfs-tools
 >extra xiccd # enable color profile settings
 ufw  # firewall needs to be in every iso

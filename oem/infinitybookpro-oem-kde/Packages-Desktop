@@ -311,7 +311,6 @@ timeshift
 ## Misc
 bootsplash-theme-manjaro
 bootsplash-systemd
-manjaro-hotfixes
 tlpui
 tuxedo-keyboard-dkms
 KERNEL-headers
