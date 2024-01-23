@@ -251,7 +251,6 @@ xorg-server
 >extra xiccd # enable color profile settings
 ufw  # firewall needs to be in every iso
 >extra mate-polkit
->extra pa-applet
 >extra rofi
 >extra xcape
 >extra qt5ct
