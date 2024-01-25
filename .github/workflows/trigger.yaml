@@ -30,7 +30,7 @@ jobs:
         git pull --rebase upstream ${BASE_BRANCH}
         git push --force-with-lease
     - 
-      uses: peter-evans/repository-dispatch@v2
+      uses: peter-evans/repository-dispatch@v3
       with:
         token: ${{ secrets.DISPATCH_TOKEN }}
         repository: manjaro-sway/manjaro-sway
