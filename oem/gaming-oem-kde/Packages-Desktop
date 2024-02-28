@@ -13,6 +13,7 @@ game-devices-udev
 >multilib lib32-gamemode
 >extra opengamepadui-bin
 >extra opengamepadui-session-git
+>extra powerstation-bin
 
 ## Network
 avahi
