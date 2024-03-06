@@ -9,9 +9,10 @@ game-devices-udev
 >extra steam-deckify
 >extra gamescope-plus
 >extra gamescope-session-git
+gamescope-session-steam-plus-git 
 >extra gamemode
 >multilib lib32-gamemode
->extra opengamepadui-bin
+>extra opengamepadui-git
 >extra opengamepadui-session-git
 >extra powerstation-bin
 
