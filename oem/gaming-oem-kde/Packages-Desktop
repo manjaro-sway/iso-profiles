@@ -9,7 +9,8 @@ game-devices-udev
 >extra steam-deckify
 >extra gamescope-plus
 >extra gamescope-session-git
-gamescope-session-steam-plus-git 
+>extra gamescope-session-steam-plus-git
+>extra os-session-select-ogui
 >extra gamemode
 >multilib lib32-gamemode
 >extra opengamepadui-git
