@@ -49,7 +49,7 @@ noto-fonts                         # default font
 #ttf-droid                         # required by firefox
 ttf-hack                           # default monspace font
 #ttf-inconsolata
-ttf-indic-otf                      # India fonts
+>extra ttf-indic-otf               # India fonts
 #ttf-liberation                    # required by firefox
 
 
