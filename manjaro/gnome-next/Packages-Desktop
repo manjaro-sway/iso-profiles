@@ -260,7 +260,7 @@ nautilus-empty-file
 #tlp                               # conflicts with power-profiles-daemon
 >extra touche
 >extra webapp-manager
-xdg-utils
+#xdg-utils                         # already a dependency of anything that requires it
 
 ## Optional dependencies for file-roller
 >extra lrzip
