@@ -248,7 +248,7 @@ lollypop
 manjaro-hello
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-#manjaro-starter                   # unmaintained
+manjaro-starter
 #mousetweaks
 >extra nautilus-admin
 nautilus-empty-file
