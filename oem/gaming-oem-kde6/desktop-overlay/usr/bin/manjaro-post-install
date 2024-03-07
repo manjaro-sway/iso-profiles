@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# Set chassis
+hostnamectl set-chassis handset
+
+# Update appstream DB
+[[ -e /usr/bin/appstreamcli ]] && /usr/bin/appstreamcli refresh-cache --force
+
+# Set locales
+localectl set-locale "en_US.UTF-8"
+
+# Disable this service, so it only gets run on first boot
+systemctl disable manjaro-post-install.service
+
+# Enable HandyGCCS
+if [[ -e /usr/lib/systemd/system/handycon.service ]]; then
+	udevadm control -R
+	systemctl enable --now handycon
+fi
+
+# Start sddm
+[[ -e /usr/bin/sddm ]] && systemctl enable --now sddm
+
+# Add ACPI Override (this might need a reboot to work)
+[[ -e /usr/bin/update_rogaao ]] && /usr/bin/update_rogaao
+
+# Pacman Init
+if [[ -e /usr/bin/pacman-key ]]; then
+	pacman-key --init
+	pacman-key --populate archlinux manjaro
+fi
+
+# Disable the root login
+#passwd --lock root
