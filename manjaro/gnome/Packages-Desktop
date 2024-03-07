@@ -64,7 +64,7 @@ pamac-gtk
 ## Printing
 
 >extra manjaro-printer
->extra system-config-printer       # optional for gnome-control-center
+>extra system-config-printer       # optional for gnome-control-center & manjaro-printer
 
 
 ## GNOME group
@@ -116,7 +116,7 @@ gvfs
 nautilus
 #orca
 >extra rygel                       # optional for gnome-control-center
->extra simple-scan
+>extra simple-scan                 # optional for manjaro-printer
 >extra snapshot
 sushi
 #tecla                             # required by gnome-control-center
