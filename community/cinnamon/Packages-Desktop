@@ -159,7 +159,7 @@ manjaro-application-utility        # optional for manjaro-hello
 manjaro-hello
 manjaro-settings-manager-notifier  # optional for manjaro-settings-manager
 >extra microsoft-office-web-jak
->basic midori
+#>basic midori                     # dropped to AUR
 mintstick
 >extra mousetweaks                 # optional for onboard
 >extra mugshot

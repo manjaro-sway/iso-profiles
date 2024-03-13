@@ -185,7 +185,7 @@ grub-theme-manjaro
 >extra manjaro-application-utility
 >extra manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
-# >basic midori  # no browser in minimal iso
+# >basic midori  # no browser in minimal iso (midori dropped to AUR)
 >extra mlocate
 mousepad
 >extra mugshot
