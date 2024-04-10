@@ -6,6 +6,7 @@ acpi
 acpid
 amd-ucode
 b43-fwcutter
+base-devel
 btrfs-progs
 bzip2
 coreutils
